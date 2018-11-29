@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+  <!-- <com.example.zdyview2.view.CounterView
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:id="@+id/counter_view"
+       android:layout_margin="20dp"
+       />-->
+  <!-- <com.example.zdyview2.view.BallView
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:id="@+id/ballView"/>-->
+<!--<com.example.zdyview2.view.CircleView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />-->
+ <!--<com.example.zdyview2.view.LuckDraw
+      android:layout_width="200dp"
+      android:layout_height="200dp" />-->
+ <!-- <com.example.zdyview2.view.ZPView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />-->
+<!--<com.example.zdyview2.view.MyView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:arcColor="@color/colorAccent"
+    app:circleColor="@color/colorPrimary"
+    app:textColor="@color/colorPrimaryDark"
+    app:textSize="30sp"
+    app:text="啦啦啦"
+    app:sweepAngle="270"
+    app:startAngle="0"/>-->
+
+ <!--  <Button xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#FF0000"
+      android:padding="5dp"
+      android:text="删除"
+      android:textColor="#FFFFFF"
+      android:textSize="16sp" >
+
+   </Button>-->
+    <com.example.zdyview2.view.ZPView2
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
