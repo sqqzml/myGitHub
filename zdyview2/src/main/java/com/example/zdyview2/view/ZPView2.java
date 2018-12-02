@@ -41,12 +41,14 @@ public class ZPView2 extends View implements View.OnClickListener {
         setMeasuredDimension(800,800);
         //得到测量后的宽和高
         mWidth=getMeasuredWidth();
+
     }
 
     //开始绘制
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+
         //因为要画扇形 里面有个RectF
         //因为那个园其实是占全屏的，所以我这个RectF的空间也是全屏
         RectF rectF = new RectF(0, 0, mWidth, mWidth);
@@ -84,12 +86,14 @@ public class ZPView2 extends View implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         Random random = new Random();
-        int jd = random.nextInt(3600);
-        RotateAnimation rotateAnimation = new RotateAnimation(0f, jd, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+        int jd = random.nextInt(1000);
+        int du = jd % 360 + 1000;
+        RotateAnimation rotateAnimation = new RotateAnimation(du, jd, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
         rotateAnimation.setFillAfter(true);
-        rotateAnimation.setDuration(1000);
+        rotateAnimation.setDuration(3000);
         rotateAnimation.setRepeatMode(0);
         rotateAnimation.setInterpolator(new LinearInterpolator());
+
        // startAnimation(rotateAnimation);
         startAnimation(rotateAnimation);
     }

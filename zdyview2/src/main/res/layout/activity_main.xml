@@ -13,10 +13,10 @@
        android:id="@+id/counter_view"
        android:layout_margin="20dp"
        />-->
-  <!-- <com.example.zdyview2.view.BallView
+   <com.example.zdyview2.view.BallView
        android:layout_width="100dp"
        android:layout_height="100dp"
-       android:id="@+id/ballView"/>-->
+       android:id="@+id/ballView"/>
 <!--<com.example.zdyview2.view.CircleView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />-->
@@ -47,7 +47,7 @@
       android:textSize="16sp" >
 
    </Button>-->
-    <com.example.zdyview2.view.ZPView2
+  <!--  <com.example.zdyview2.view.ZPView2
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" />-->
 </LinearLayout>

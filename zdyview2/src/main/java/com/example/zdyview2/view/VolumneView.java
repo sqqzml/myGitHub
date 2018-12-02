@@ -22,9 +22,9 @@ public class VolumneView extends View {
     private float mcurrentHeight;
 
     public static final int OFFSET = 5;
-
-
-    public VolumneView(Context context, AttributeSet attrs) {
-        super(context, attrs);
+    public VolumneView(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
     }
+
+
 }
